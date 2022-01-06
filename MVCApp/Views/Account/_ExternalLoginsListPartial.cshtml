@@ -1,7 +1,7 @@
 ﻿@model MVCApp.Models.ExternalLoginListViewModel
 @using Microsoft.Owin.Security
 
-<h4>Use another service to log in.</h4>
+<h4>Drugi načini logiranja.</h4>
 <hr />
 @{
     var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
@@ -9,8 +9,8 @@
     {
         <div>
             <p>
-                There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkId=403804">this article</a>
-                for details on setting up this ASP.NET application to support logging in via external services.
+                Kako je .NET Framework tehnologija postala legacy. Povezivanje na druge servise prijave, kao Google, FaceBook, Twitter i ostale, nije moguće.
+                Rješenje problema bio bi prijelazak na .NET 6.
             </p>
         </div>
     }

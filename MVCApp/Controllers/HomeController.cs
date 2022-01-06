@@ -26,6 +26,7 @@ namespace MVCApp.Controllers
             return View();
         }
 
+        [Authorize]
         public ActionResult ViewEmployees()
         {
             ViewBag.Message = "Employees List";
