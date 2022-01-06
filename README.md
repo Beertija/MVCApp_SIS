@@ -3,7 +3,7 @@
 Kako bi se pokrenula aplikacija, odnosno Web stranica, treba se imati Visal Studio sa ASP.NET bibliotekom instaliranom. 
 Zatim prilikom prvotnog otvaranja solutiona, ako izbaci error zbog nedostatka baze, potrebno je publishati MVCDemoDB projekt kako bi se kreirala baza sa tablicom.
 
-[] U slučaju nedostatka podataka
+## U slučaju nedostatka podataka
 
 Ukoliko se ne prenesu sadržaji baza podataka.
 Unos korisnika, odnosno same registracije vrši se unutar dbo.AspNetUsers tablice. 
